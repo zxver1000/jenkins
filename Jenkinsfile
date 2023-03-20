@@ -1,9 +1,9 @@
 pipeline {
     agent any 
     stages {
-        stager('Stage 1') {
+        stage('Stage 1') {
             steps {
-                echo 'Hellfo world!' 
+                echo 'Hellfo woㄱrld!' 
             }
         }
     }
