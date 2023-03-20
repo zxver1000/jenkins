@@ -1,18 +1,10 @@
-node{
-    //init stage 시작
-    stage("init"){
-      sh "echo init하이하이"
+pipeline {
+    agent any 
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Hello world!' 
+            }
+        }
     }
- 
-    //build stage 시
-    
-    stage("build"){
-      sh "echo 'start build' "
-    }
- 
-    //deploy stage 시작
-    stage("deploy"){
-      sh "echo 'stargfdgfdt degㄱfplㄱoysfsdsrt' "
-    }
-   
 }
