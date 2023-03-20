@@ -12,7 +12,7 @@ node{
  
     //deploy stage 시작
     stage("deploy"){
-      sh "echo 'start degㄱfplㄱoysfsdsrt' "
+      sh "echo 'stargfdgfdt degㄱfplㄱoysfsdsrt' "
     }
    
 }
